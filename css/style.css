@@ -1,0 +1,89 @@
+.inner {
+    max-width: 1750px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.sec {
+    padding: 150px 0;
+}
+
+.header .inner {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    background: transparent;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+.gnb ul {
+    display: flex;
+    gap: 30px;
+    font-size: 23px;
+    font-weight: 200;
+}
+
+.main_visual {
+    position: relative;
+}
+
+
+.main_visual .content {
+    position: relative;
+    background: url(../images/visual1.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+
+.main_visual .slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    font-size: 55px;
+    font-weight: 200;
+    font-family: 'Noto Serif KR';
+    z-index: 998;
+}
+
+.main_visual .slogan strong {
+    font-weight: 600;
+}
+
+.main_content .content {
+    position: relative;
+    background: url(../images/visual2.jpg)no-repeat center center/cover;
+    height: 500px;
+    width: 600px;
+    border-radius: 0 50px 0 50px;
+}
+
+.main_content .content .img_box {
+    position: absolute;
+    display: flex;
+    gap: 50px;
+    top: 50%;
+    left: -15%;
+    width: 1000px;
+
+}
+
+.main_content .content .txt {
+    display: flex;
+    flex: 1;
+    background: #ecf5f8;
+    color: #005eb8;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+}
