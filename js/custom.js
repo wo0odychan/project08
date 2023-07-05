@@ -14,4 +14,9 @@ $(function () {
         $('.cf li').eq(idx).addClass('on').siblings().removeClass('on');
     });
 
+    $('.mobile_btn').on('click', function () {
+        $(this).toggleClass('on');
+        $('.gnb').toggleClass('on');
+
+    });
 })
