@@ -19,4 +19,7 @@ $(function () {
         $('.gnb').toggleClass('on');
 
     });
+    $('.gnb').on('wheel touchmove', function (e) {
+        e.preventDefault();
+    });
 })
